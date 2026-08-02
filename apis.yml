@@ -1,8 +1,23 @@
 aid: teleradiology-solutions
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/teleradiology-solutions.png
 name: Teleradiology Solutions
-description: 'Teleradiology Solutions is a company surfaced as a portfolio company of bessemer-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'Teleradiology Solutions is a pioneer remote radiology reporting provider serving
+  healthcare facilities across the USA and India. Services include emergency nighthawk coverage,
+  subspecialty and elective reporting, 3D imaging and post-processing, quality-assurance overreads,
+  clinical-trial imaging, and AI-enabled RIS-PACS workflow (via subsidiary Telerad Tech). Surfaced as
+  a portfolio company of bessemer-venture-partners. No public developer API surface was found at the time
+  of enrichment.'
 url: https://raw.githubusercontent.com/api-evangelist/teleradiology-solutions/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +27,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Healthcare
+- Teleradiology
+- Medical Imaging
+- Radiology
+- Diagnostics
+- Healthcare IT
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +43,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/teleradiology-solutions-domain-security.yml
 - type: Website
   url: https://telradsol.com/
+- type: Blog
+  url: https://telradsol.com/blog/
+- type: Support
+  url: https://telradsol.com/contact/
+- type: About
+  url: https://telradsol.com/teleradiology-company-overview/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
